@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen_tarea3"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_app"
+        android:textColor="#F3F0F0"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="400dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="69dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/button"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/colorAccent" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
